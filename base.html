@@ -151,7 +151,6 @@ p{
 
         <div class="rightside">
           <form action="{% url 'cards' %}">
-              {% csrf_token %}
             <h2>Платежная информация</h2>
             <p>Имя/Фамилия</p>
             <input type="text" class="inputbox" name="name" required />
